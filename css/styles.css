@@ -1,0 +1,10 @@
+body {
+  margin: 30px 0;
+}
+.dropdown {
+  margin-bottom: 15px;
+}
+.dropdown-toggle,
+.dropdown-item {
+  cursor: pointer;
+}
