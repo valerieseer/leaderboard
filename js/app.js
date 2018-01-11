@@ -1,13 +1,18 @@
 $(document).ready(function() {
 
-  var ui = (function() {
+  var ui = function() {
     var opts = {
+      // Urls
       bestAllTimeUrl: undefined,
       bestLastThirtyDaysUrl: undefined,
+
+      // Selectors
       bestAllTimeBtnSelector: undefined,
       bestLastThirtyDaysBtnSelector: undefined,
       headerSelector: undefined,
       leaderBoardContainerSelector: undefined,
+
+      // Header texts
       bestAllTimeHeaderText: undefined,
       bestLastThirtyDaysHeaderText: undefined
     }
@@ -50,7 +55,7 @@ $(document).ready(function() {
               points = el.recent
             }
             var username = el.username;
-            
+
             $userNameContainer.append(`<p>${i + 1}. <a href="https://www.freecodecamp.org/${username}" target="_blank">${username}</a></p>`);
             $pointsContainer.append(`<p>${points}</p>`);
             $leaderBoardContainer.append($userNameContainer);
