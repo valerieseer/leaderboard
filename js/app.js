@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var ui = function() {
+  var ui = (function() {
     var opts = {
       // Urls
       bestAllTimeUrl: undefined,
