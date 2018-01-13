@@ -1,1 +1,1 @@
-Leaderboard project: https://www.freecodecamp.org/challenges/build-a-camper-leaderboard
+Leaderboard project similar to https://codepen.io/freeCodeCamp/full/eZGMjp
